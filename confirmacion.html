@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/reservasestilos.css">
+    <title>Reservas de Excursiones</title>
+  </head>
+  <body>
+    <h1>Reserva tu excursión</h1>
+    <form>
+      <label>
+        Cantidad de adultos (mayores de 18 años):
+        <input type="number" name="adultos" id="adultos" min="1" max="4">
+      </label>
+      <br>
+      <label>
+        Cantidad de menores (menores de 18 años):
+        <input type="number" name="menores" id="menores" min="0" max="4">
+      </label>
+      <br>
+      <label>
+        Nombre completo:
+        <input type="text" name="nombre" id="nombre" required>
+      </label>
+      <br>
+      <label>
+        Correo electrónico:
+        <input type="email" name="email" id="email" required>
+      </label>
+      <br>
+      <button type="submit">Continuar</button>
+    </form>
+    <script src="js/confirmacion.js"></script>
+  </body>
+</html>
